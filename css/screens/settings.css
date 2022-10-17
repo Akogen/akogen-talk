@@ -1,0 +1,52 @@
+.alt-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  margin: var(--main-margin);
+  border: var(--main-border);
+  width: var(--main-width);
+  padding: var(--main-padding);
+  background-color: var(--main-background-color);
+
+  border-bottom: var(--user-component-border-bottom);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.settings__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: felx-start;
+
+  margin: var(--main-margin);
+  border: var(--main-border);
+  width: var(--main-width);
+  padding: var(--main-padding);
+  background-color: var(--main-background-color);
+
+  border-bottom: var(--user-component-border-bottom);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.settings__li {
+  font-size: var(--main-font-size-large);
+  margin: 32px 0;
+}
+.settings__li i {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.settings__li__version,
+.settings__li__theme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+
+  width: 100%;
+}

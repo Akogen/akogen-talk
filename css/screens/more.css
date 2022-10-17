@@ -1,0 +1,40 @@
+.more-screen {
+  height: 900px;
+}
+.user-component--more {
+  border-bottom: 0px solid black;
+}
+.user-component__more > .user-component__column > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+.user-component__phonenumber {
+  color: var(--main-font-color-light);
+}
+.more-suggestions {
+  margin: var(--main-margin);
+  border: var(--main-border);
+  width: var(--main-width);
+  padding: var(--main-padding);
+  background-color: var(--main-background-color);
+
+  border-bottom: var(--user-component-border-bottom);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.more-suggestions__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.more-suggestions__icon {
+  text-align: center;
+  width: 130px;
+}
+.more-suggestions__icon-image img {
+  width: 60px;
+  margin-bottom: 10px;
+}

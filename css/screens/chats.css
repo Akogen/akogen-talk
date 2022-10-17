@@ -1,0 +1,10 @@
+.main-screen-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+
+  background-color: var(--main-background-color);
+  padding-bottom: 700px;
+}

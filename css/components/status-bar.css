@@ -1,0 +1,32 @@
+.status-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+
+  margin: var(--main-margin);
+  border: var(--main-border);
+  border-top-left-radius: var(--main-border-radius);
+  border-top-right-radius: var(--main-border-radius);
+  width: var(--main-width);
+  padding: var(--main-padding);
+  background-color: var(--main-background-color);
+
+  padding-bottom: 10px;
+}
+.status-bar__column {
+  width: 33%;
+  font-size: var(--main-font-size-xs);
+}
+.status-bar__column:nth-child(1) {
+  text-align: left;
+}
+.status-bar__column:nth-child(2) {
+  text-align: center;
+
+  font-weight: bold;
+}
+.status-bar__column:nth-child(3) {
+  text-align: right;
+}

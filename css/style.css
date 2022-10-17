@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;500;600;700&family=Noto+Serif+KR:wght@200;400;500;600;700;900&family=Roboto:wght@900&family=Source+Sans+Pro:wght@200;300;400;600;900&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chats.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+body {
+  font-family: "Noto Sans Ethiopic", sans-serif;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  margin: var(--body-margin);
+  border: var(--body-border);
+  padding: var(--body-padding);
+  background-color: var(--body-background-color);
+}
+.divider {
+  width: 2px;
+  height: 16px;
+  background-color: var(--main-diviver-background-color);
+  margin: 0 8px;
+}

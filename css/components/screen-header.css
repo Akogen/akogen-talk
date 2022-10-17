@@ -1,0 +1,37 @@
+.screen-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  margin: var(--main-margin);
+  border: var(--main-border);
+  width: var(--main-width);
+  padding: var(--main-padding);
+  background-color: var(--main-background-color);
+
+  font-size: var(--main-font-size-small);
+
+  padding-bottom: 0px;
+}
+.screen-header__icons > span {
+  padding-left: 20px;
+}
+.screen-header__icons > a {
+  position: relative;
+  padding-left: 13px;
+}
+
+.screen-header__icons-cogg {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+
+  display: block;
+  overflow: visible;
+  width: 6px;
+  height: 6px;
+  background-color: tomato;
+  border-radius: 3px;
+}

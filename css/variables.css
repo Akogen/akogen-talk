@@ -1,0 +1,58 @@
+:root {
+  --body-margin: 0px;
+  --body-border: 0x solid rgba(0, 0, 0, 1);
+  --body-padding: 0px;
+  --body-background-color: rgba(0, 0, 0, 0.5);
+
+  --main-margin: 0px;
+  --main-border: 0px solid rgba(0, 0, 0, 1);
+  --main-border-radius: 40px;
+  --main-width: 600px;
+  --main-height: 700px;
+  --main-padding: 10px 20px;
+  --main-background-color: rgba(255, 255, 255, 1);
+
+  --main-font-size-4l: 30px;
+  --main-font-size-3l: 28px;
+  --main-font-size-2l: 26px;
+  --main-font-size-large: 24px;
+  --main-font-size-medium: 22px;
+  --main-font-size-small: 20px;
+  --main-font-size-xs: 18px;
+  --main-font-size-2s: 16px;
+
+  --main-font-color-lightest: rgba(0, 0, 0, 0.1);
+  --main-font-color-lighter: rgba(0, 0, 0, 0.2);
+  --main-font-color-light: rgba(0, 0, 0, 0.4);
+  --main-font-color: rgba(0, 0, 0, 0.6);
+
+  --main-font-weight-2l: 600;
+  --main-font-weight-large: 500;
+  --main-font-weight-medium: 400;
+  --main-font-weight-small: 200;
+
+  --main-diviver-background-color: rgba(0, 0, 0, 0.5);
+
+  --sub-padding: 10px 60px;
+  --border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+  --chat-background-color: #abc1d1;
+
+  --no-mobile-background-color: rgba(0, 112, 74, 1);
+  --input-border-bottom: red;
+  --input-button-color: rgba(0, 0, 0, 0.3);
+  --input-border: 1px solid rgba(0, 0, 0, 0.3);
+  --user-component-border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  --user-component-avatar-margin-right: 20px;
+  --user-component-avatar-large-border-radius: 20px;
+  --user-component-avatar-large-width: 80px;
+  --user-component-avatar-large-heigth: 80px;
+  --user-component-avatar-medium-border-radius: 15px;
+  --user-component-avatar-medium-width: 60px;
+  --user-component-avatar-medium-heigth: 60px;
+  --user-component-avatar-small-border-radius: 10px;
+  --user-component-avatar-small-width: 40px;
+  --user-component-avatar-small-heigth: 40px;
+
+  --nav-background-color: rgb(227, 235, 238);
+}
