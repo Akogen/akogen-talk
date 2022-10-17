@@ -13,7 +13,7 @@
   font-weight: bold;
   color: white;
 }
-@media screen and (max-width: 1610px) {
+@media screen and (max-width: 610px) {
   #no-mobile {
     display: none;
   }
